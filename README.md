@@ -1,9 +1,7 @@
-﻿
 
-# TimePilot Lib 311x-011
+# TimePilot Lib 311x-012
 
 TimePilot is a simple Python 3.11 library that helps you work with timezones and format them in different ways. With TimePilot, you can display the current time in a specific timezone or format a range of dates and times to appear in a particular way.
-Visit the PyPI TimePilot website [here](https://pypi.org/project/timepilot/).
 
 ## Installation
 
@@ -47,7 +45,7 @@ You can specify the formatting option when calling get_current_time or format_da
 
 ## Version
 
-The current version of TimePilot is 311x-011, indicating that it is compatible with Python 3.11 and all sub-versions and the library version is 0.1.
+The current version of TimePilot is 311x-012, indicating that it is compatible with Python 3.11 and all sub-versions and the library version is 0.1.
 
 # License
 TimePilot is released under the MIT License. You can find the license information in the LICENSE file.
