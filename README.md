@@ -3,7 +3,7 @@
 # TimePilot Lib 311x-01
 
 TimePilot is a simple Python 3.11 library that helps you work with timezones and format them in different ways. With TimePilot, you can display the current time in a specific timezone or format a range of dates and times to appear in a particular way.
-Visit the PyPI TimePilot website [here](https://pypi.org/project/timepilot/)
+Visit the PyPI TimePilot website [here](https://pypi.org/project/timepilot/).
 
 ## Installation
 
