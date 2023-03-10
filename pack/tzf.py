@@ -3,19 +3,15 @@
 import time
 
 def get_timezone_offset(timezone_name):
-    """
-    offset timeone
-    """
+    #offset timezone if requested
     timezone_offset = time.timezone
     if time.daylight and time.localtime().tm_isdst:
         timezone_offset += 3600
     return timezone_offset
 
 def get_current_time(timezone_name, format="default"):
-    """
-    return current time
-    ANNDDDD formats
-    """
+    #main feature, request time by name
+    #contains formats now lol
     timezone_offset = get_timezone_offset(timezone_name)
     current_time = time.time() + timezone_offset
     if format == "hour":
